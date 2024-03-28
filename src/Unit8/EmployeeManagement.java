@@ -4,6 +4,10 @@ import java.util.Collection;
 import java.util.DoubleSummaryStatistics;
 import java.util.OptionalDouble;
 
+/**
+ * Employee Management - entry point to program
+ * Performs different functions on our employee list and displays the result
+ */
 public class EmployeeManagement {
     public static void main(String[] args) {
         EmployeeAdmin admin = new EmployeeAdmin();
