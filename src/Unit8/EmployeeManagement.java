@@ -41,7 +41,7 @@ public class EmployeeManagement {
                     .filter(emp -> emp.age() == employeeData.stream()
                             .mapToDouble(Employee::age)
                             .max().orElse(0)).map(admin::printAll).forEach(System.out::println);
-            /* ------------------------------------------------------------------------------------ */
+            /* ------------------------------------------------------------------------------------ --*/
             System.out.println("Highest Earner(s): ");
             employeeData.stream()
                     .sorted(Comparator.comparingDouble(Employee::salary).reversed())
